@@ -41,7 +41,6 @@ require 'includes/header.php';
             <li>Mengintegrasikan website dengan database MySQL/MariaDB.</li>
             <li>Menerapkan Git dan GitHub untuk version control.</li>
         </ul>
-        <p>Latihan Git Revert.</p>
 
     </div>
 </section>
