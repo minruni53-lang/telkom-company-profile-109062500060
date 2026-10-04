@@ -34,6 +34,14 @@ require 'includes/header.php';
             Konten institusi pada website ini bersifat simulasi untuk keperluan praktikum.
         </div>
 
+        <h2>Fokus Pembelajaran</h2>
+
+        <ul>
+            <li>Memahami pengembangan website menggunakan PHP native.</li>
+            <li>Mengintegrasikan website dengan database MySQL/MariaDB.</li>
+            <li>Menerapkan Git dan GitHub untuk version control.</li>
+        </ul>
+
     </div>
 </section>
 
