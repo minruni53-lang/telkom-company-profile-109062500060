@@ -1,13 +1,10 @@
 # Telkom University Company Profile - Praktikum
 
-Project simulasi untuk praktikum pengembangan web menggunakan HTML, CSS,
-PHP native, MySQL/MariaDB, dan Git/GitHub.
+Project simulasi untuk praktikum pengembangan web menggunakan HTML, CSS, PHP Native, MySQL/MariaDB, dan Git/GitHub.
 
-Project ini dibuat sebagai media pembelajaran integrasi website dinamis,
-database, dan version control.
+Project ini dibuat sebagai media pembelajaran integrasi website dinamis, database, dan version control.
 
-> Catatan: website ini merupakan simulasi untuk keperluan praktikum dan
-> bukan merupakan situs resmi Telkom University.
+> **Catatan:** Website ini merupakan simulasi untuk keperluan praktikum dan bukan merupakan situs resmi Telkom University.
 
 ## Fitur Project
 
@@ -57,3 +54,53 @@ telkom-company-profile-109062500060/
 ├── contact_process.php
 ├── README.md
 └── .gitignore
+
+## Cara Menjalankan Project
+
+### 1. Menjalankan Laragon
+- Buka aplikasi Laragon.
+- Jalankan **Apache** dan **MySQL** dengan menekan tombol **Start All**.
+- Pastikan kedua service berjalan dengan normal.
+
+### 2. Menempatkan Project
+Letakkan folder project di:
+
+`C:\laragon\www\telkom-company-profile-109062500060`
+
+### 3. Menyiapkan Database
+- Buka phpMyAdmin melalui Laragon.
+- Buat database dengan nama `telkom_profile`.
+- Import file `database/telkom_profile.sql`.
+
+### 4. Membuka Project
+Buka browser dan akses:
+
+`http://localhost/telkom-company-profile-109062500060/`
+
+### 5. Pengujian
+Pastikan:
+- Halaman beranda dapat dibuka.
+- Data Program Studi tampil dari database.
+- Daftar dan detail berita dapat dibuka.
+- Form kontak dapat digunakan.
+- Pesan dari form kontak tersimpan ke database.
+
+## Praktikum Git
+
+Project ini dibuat sebagai penerapan materi Git dan GitHub, meliputi:
+
+- Repository lokal dan remote GitHub
+- Commit dan push
+- Branch dan merge
+- Simulasi merge conflict
+- Clone project ke folder kedua sebagai simulasi Laptop B
+- Push dan pull
+- Recovery menggunakan revert
+- Pembuatan release dengan tag `v1.0.0`
+
+### Riwayat Praktikum Git
+
+Riwayat commit dapat dilihat menggunakan perintah:
+
+```bash
+git log --oneline --graph --decorate --all
